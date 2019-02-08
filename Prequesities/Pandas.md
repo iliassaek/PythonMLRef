@@ -2,7 +2,7 @@
 - Loading data from dataset should be an automatic reflex
 
 ## Manual Data loading
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L13.png)
+![Streched](/assets/S3L13.png)
 - Data can be semi-structured (data collected by a server)
 - Data can be structured (kaggle)
 ```python

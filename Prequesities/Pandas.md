@@ -30,7 +30,7 @@ X.info() # it tells us if there is other row types , if you have only one String
 X.head() # print few first rows
 X.head(10) # print 10 fst rows
 ```
-<<<<<<< HEAD
+
 ## Selecting Rows and columns
 ### Column
 ```python
@@ -63,9 +63,9 @@ df.ones # to see the new serie of ones
 ```
 
 ## The apply() function
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L17.png)
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L17-2.png)
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L17-3.png)
+![Streched](/assets/S3L17.png)
+![Streched](/assets/S3L17-2.png)
+![Streched](/assets/S3L17-3.png)
 
 ```python
 from datetime import datetime
@@ -76,12 +76,11 @@ df.info() # df.dt contain datetime objects
 
 ```
 ## Joins
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L18.png)
+![Streched](/assets/S3L18.png)
 ```python
 t1 = read_csv("table1.csv")
 t2 = read_csv("table2.csv")
 m = pd.merge(t1,t2,on = "user_id")
 
 ```
-=======
->>>>>>> 2056b5cd8a4204c33b11d66a6cfe2ace0288f59a
+

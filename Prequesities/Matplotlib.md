@@ -38,7 +38,7 @@ y = A[:,1]
 plt.scatter(x,y)
 plt.show()
 ```
-![Streched](/home/iliass/Pictures/Pthon/Preq/S4L20-1.png)
+![Streched](/assets/S4L20-1.png)
 ```python
 x_line = np.linspace(0,100,100)
 y_line = 2*x_line + 1
@@ -47,7 +47,7 @@ plt.scatter(x_line,y_line)
 
 ```
 
-![Streched](/home/iliass/Pictures/Pthon/Preq/S4L20-2.png)
+![Streched](/assets/S4L20-2.png)
 
 
 ## Histogram
@@ -70,7 +70,7 @@ plt.hist(residuals) # should be guassian distributed (AD)
 ```
 
 ## Plotting images
-![Streched](/home/iliass/Pictures/Pthon/Preq/S4L22-1.png)
+![Streched](/assets/S4L22-1.png)
 ```python
 import pandas as pd 
 df = pd.read_csv("train.csv")

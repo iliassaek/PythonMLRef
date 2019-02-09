@@ -1,5 +1,5 @@
 # Scipy
- 
+ -------------------
 ## Gaussian PDF and CDF
 ![Streched](/assets/S5L23-1.png)
 
@@ -36,10 +36,15 @@ norm.cdf(r) # integral from -00 to x
 norm.logcdf(r) # log of integral 
 ```
 
+---------------------------------
 ## Sampling form a gaussian distribution (1-D)
 
 > from this
+
+
 ![Streched](/assets/S5L24-1.png) 
+
+
 > to this
 >  ![Streched](/assets/S5L24-2.png)
 >  
@@ -49,6 +54,8 @@ r = 10*np.random.randn(10000) + 5 #standard deviation = 10 and mean=5
 plt.hist(r, bins=100)
 plt.show()
 ```
+
+------------------------
 ## Sampling from a Gaussian Distribution (Spherical and Axis-aligned Elliptical)
 
 ```python

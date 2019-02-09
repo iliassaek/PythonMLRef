@@ -2,7 +2,7 @@
 - Loading data from dataset should be an automatic reflex
 
 ## Manual Data loading
-![Streched](/home/iliass/Pictures/Pthon/Preq/S3L13.png)
+![Streched](/assets/S3L13.png)
 - Data can be semi-structured (data collected by a server)
 - Data can be structured (kaggle)
 ```python
@@ -30,6 +30,7 @@ X.info() # it tells us if there is other row types , if you have only one String
 X.head() # print few first rows
 X.head(10) # print 10 fst rows
 ```
+<<<<<<< HEAD
 ## Selecting Rows and columns
 ### Column
 ```python
@@ -82,3 +83,5 @@ t2 = read_csv("table2.csv")
 m = pd.merge(t1,t2,on = "user_id")
 
 ```
+=======
+>>>>>>> 2056b5cd8a4204c33b11d66a6cfe2ace0288f59a

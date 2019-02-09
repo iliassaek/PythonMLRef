@@ -30,7 +30,7 @@ np.log(A) #array([0,0.69,1.09])
 ```
 
 ## Dot Product1
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2l5-1.png)
+![Streched](/assets/S2l5-1.png)
 ```python
 a =  np.array([1,2])
 (a*a).sum()
@@ -45,7 +45,7 @@ b.dot(a)
 amag = np.sqrt((a*a).sum())
 amag = np.linalg.norm(a) 
 ```
-![Streched](/home/iliass/Pictures/Pthon/Preq/s2l5-2.png)
+![Streched](/assets/s2l5-2.png)
 ```python
 a = np.array([1,2])
 b = np.array([2,1])
@@ -72,7 +72,7 @@ G.mean() # mean
 G.var() # variance
 
 ## Matrix product 
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L9-1.png)
+![Streched](/assets/S2L9-1.png)
 
 ## Matrix operations
 for diag if input : 2D then output : 1D
@@ -102,22 +102,22 @@ covX.shape # 3
 ```
 
 ### Eigenvalues and Eigenvectors
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L10-2.png)
+![Streched](/assets/S2L10-2.png)
 ```python
 np.linalg.eigh(covX) ## eig values with the same eig vectore in columns
 np.linalg.eig(covX) ## order may be not the same
 ```
 
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L10-3.png)
+![Streched](/assets/S2L10-3.png)
 
 ## Solving Linear Systems
 
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L11-1.png)
+![Streched](/assets/S2L11-1.png)
 
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L11-2.png)
+![Streched](/assets/S2L11-2.png)
 
 you should alwayse solve rather tha inv .
 
 ## Example of solving linear problem
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L12-1.png)
-![Streched](/home/iliass/Pictures/Pthon/Preq/S2L12-2.png)
+![Streched](/assets/S2L12-1.png)
+![Streched](/assets/S2L12-2.png)

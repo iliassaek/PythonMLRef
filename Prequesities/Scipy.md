@@ -38,9 +38,9 @@ norm.logcdf(r) # log of integral
 
 ## Sampling form a gaussian distribution (1-D)
 
->form this
+> from this
 ![Streched](/assets/S5L24-1.png) 
-  to this
+> to this
 >  ![Streched](/assets/S5L24-2.png)
 >  
 ```python

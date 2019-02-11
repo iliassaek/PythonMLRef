@@ -28,3 +28,12 @@ yhat = a*X + b
 plt.plot(X,yhat)
 
 plt.show()
+
+# tesCalculating R2
+d1 = Y - yhat
+d2 = Y - Y.mean()
+
+r2 = 1 - d1.dot(d1)/d2.dot(d2)
+
+print ("the r2 squared is ", r2)
+
